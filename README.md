@@ -1,37 +1,13 @@
-## Welcome to GitHub Pages
+# An overview of Incremental few shot learning methods.
 
-You can use the [editor on GitHub](https://github.com/kaushik333/ContinualLearningBlog/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+The area of few shot learning addresses the problem of how to use only few samples from a particular class and learn to classify it as opposed to using 100s or 1000s of samples. This problem in itself is not practically very useful, because one would not want a classifier to learn new classes by erasing previous knowledge, but rather add to it. This has given rise to the area of Incremental Continual Learning. We will now review some papers in this area, understand the philosphy of their idea and walk through the technical details of the contributions. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+We will consider the following 5 papers:
 
-### Markdown
+1. [Dynamic Few-Shot Visual Learning without Forgetting](https://arxiv.org/abs/1804.09458)
+2. [Incremental Few-Shot Learning with Attention Attractor Networks](https://arxiv.org/abs/1810.07218)
+3. [XtarNet: Learning to Extract Task-Adaptive Representation for Incremental Few-Shot Learning](https://arxiv.org/abs/2003.08561)
+4. [Few-Shot Class-Incremental Learning](https://arxiv.org/abs/2004.10956)
+5. [Incremental few-shot learning via vector quantization in deep embedded space ](https://openreview.net/forum?id=3SV-ZePhnZM)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kaushik333/ContinualLearningBlog/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
