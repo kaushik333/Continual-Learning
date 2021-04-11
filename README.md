@@ -11,3 +11,13 @@ We will consider the following 5 papers:
 5. [Incremental few-shot learning via vector quantization in deep embedded space ](https://openreview.net/forum?id=3SV-ZePhnZM)
 
 
+## Paper 1 - Dynamic Few-Shot Visual Learning without Forgetting
+
+The main goal of this work is to develop a framework so as to learn new classes with few samples while not forgetting the old classes. There are two main technical contributions to achieve this goal: 
+* Have a few-shot classification weight generator to extend the object clasifier into learning new classes. 
+* Redesign classifier into using cosine similarity instead of dot product.
+
+The algorithm proposed by the paper is shown below: 
+![](./Paper1_algorithm.png)
+
+A pictorial representation of their training process is also shown below: 
