@@ -21,3 +21,5 @@ The algorithm proposed by the paper is shown below:
 ![](./Paper1_algorithm.png)
 
 A pictorial representation of their training process is also shown below: 
+![](./Paper1_fig1.png)
+![](./Paper1_fig2.png)
