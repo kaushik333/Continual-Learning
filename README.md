@@ -26,7 +26,7 @@ A pictorial representation of their training process is also shown below:
 
 ## Paper 2 - Incremental Few-Shot Learning with Attention Attractor Networks
 
-This paper uses meta learning to be able to perform few shot learning. The train dataset is initally divided into base-classes and novel classes. In the first stage, the base classes are learned with a base neural network. In the second stage, "episodes" with data from new and old classes are formed and meta learning is used to learn the parameters of the attention attractoe network (AAN). Finally, in the inference stage, with fixed parameters of AAN, the weight matrix for the novel classes can be obtained by simple SGD based training. 
+This paper uses meta learning to be able to perform few shot learning. The train dataset is initally divided into base-classes and novel classes. In the first stage, the base classes are learned with a base neural network. In the second stage, "episodes" with data from new and old classes are formed and meta learning is used to learn the parameters of the attention attractor network (AAN). Finally, in the inference stage, with fixed parameters of AAN, the weight matrix for the novel classes can be obtained by simple SGD based training. 
 
 Pictorial representation of the training process is shown below: 
 ![](./Paper2_dataset.png)
