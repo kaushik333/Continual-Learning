@@ -32,3 +32,6 @@ Pictorial representation of the training process is shown below:
 ![](./Paper2_dataset.png)
 ![](./Paper2_algorithm.png)
 
+## Paper 3 - XtarNet: Learning to Extract Task-Adaptive Representation for Incremental Few-Shot Learning
+
+The previous two papers have a two-stage procedure where, in the first stage a base classifier and feature representation are learnt. In the second stage, an attention mechanism over the base features is used to learn weights to classify new classes. Essentially, the feature extractor has fixed representations all along and does not change, with new tasks being learned. This paper aims to address the issue mentioned above. 
